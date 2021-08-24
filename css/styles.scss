@@ -1,0 +1,14 @@
+@import "variables";
+
+*{
+    margin:0;
+}
+body{
+    font-family: $font-family-open;
+    font-size: 1.125rem;
+}
+
+.container {
+  margin: 0 1.5rem;
+
+}
