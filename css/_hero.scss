@@ -1,0 +1,47 @@
+.hero-container {
+  background-color: $bg-blue;
+  background-image: url("../images/bg-hero-mobile.svg");
+  background-repeat: no-repeat;
+  color: $color-blue-dark;
+
+  &__content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem 1.5rem;
+  }
+
+  &__text {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+  }
+
+  &__title {
+    font-family: $font-family-poppins;
+    margin-top: 4.5rem;
+  }
+
+  &__description {
+    font-weight: $font-w-400;
+    margin-top: 1.5rem;
+  }
+
+  &__button {
+    background-color: $bg-pink;
+    border-radius: 3rem;
+    border:none;
+    color: $bg-white;
+    font-weight: $font-w-700;
+    height: 2.5rem;
+    margin-top: 1.5rem;
+    width: 15rem;
+  }
+
+  &__img {
+    margin-top: 2.5rem;
+    width: 90%;
+  }
+}

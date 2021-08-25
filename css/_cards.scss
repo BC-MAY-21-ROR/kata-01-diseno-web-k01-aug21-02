@@ -1,0 +1,30 @@
+.cards-container {
+  margin: 4.5rem 0 10rem;
+
+  &__image {
+    padding:1rem
+  }
+
+  &__card {
+    align-items: center;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 5px #80808057;
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 1rem;
+    padding:3rem 0;
+    text-align: center;
+  }
+
+  &__title {
+    color:$color-blue-dark;
+    font-family: $font-family-poppins;
+    padding-top: 2rem;
+  }
+
+  &__info {
+    color: $color-gray;
+    font-size: 1rem;
+    padding: 1rem 2rem;
+  }
+}

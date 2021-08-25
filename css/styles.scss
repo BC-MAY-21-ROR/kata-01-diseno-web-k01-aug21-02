@@ -1,14 +1,19 @@
 @import "variables";
+@import "header";
+@import "hero";
+@import "cards";
+@import "footer";
+@import "card";
 
-*{
-    margin:0;
+* {
+  margin:0;
 }
-body{
-    font-family: $font-family-open;
-    font-size: 1.125rem;
+
+body {
+  font-family: $font-family-open;
+  font-size: 1.125rem;
 }
 
 .container {
   margin: 0 1.5rem;
-
 }

@@ -1,3 +1,196 @@
+.header-container {
+  background-color: transparent;
+  display: flex;
+  height: 5rem;
+  position: absolute;
+  width: 100%; }
+  .header-container__nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%; }
+  .header-container__logo {
+    padding-left: 1rem;
+    width: 8rem; }
+  .header-container__button {
+    background-color: white;
+    border-radius: 3rem;
+    border: none;
+    box-shadow: 0.5px 0.5px 5px #808d99;
+    color: #00252e;
+    font-weight: 700;
+    height: 1.8rem;
+    margin-right: 1rem;
+    width: 7rem; }
+
+.hero-container {
+  background-color: #ebfbff;
+  background-image: url("../images/bg-hero-mobile.svg");
+  background-repeat: no-repeat;
+  color: #00252e; }
+  .hero-container__content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem 1.5rem; }
+  .hero-container__text {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%; }
+  .hero-container__title {
+    font-family: "Poppins", sans-serif;
+    margin-top: 4.5rem; }
+  .hero-container__description {
+    font-weight: 400;
+    margin-top: 1.5rem; }
+  .hero-container__button {
+    background-color: #ff52bf;
+    border-radius: 3rem;
+    border: none;
+    color: white;
+    font-weight: 700;
+    height: 2.5rem;
+    margin-top: 1.5rem;
+    width: 15rem; }
+  .hero-container__img {
+    margin-top: 2.5rem;
+    width: 90%; }
+
+.cards-container {
+  margin: 4.5rem 0 10rem; }
+  .cards-container__image {
+    padding: 1rem; }
+  .cards-container__card {
+    align-items: center;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 5px #80808057;
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 1rem;
+    padding: 3rem 0;
+    text-align: center; }
+  .cards-container__title {
+    color: #00252e;
+    font-family: "Poppins", sans-serif;
+    padding-top: 2rem; }
+  .cards-container__info {
+    color: #808d99;
+    font-size: 1rem;
+    padding: 1rem 2rem; }
+
+.footer-container {
+  align-items: center;
+  background-color: #00252e;
+  color: white;
+  justify-content: center;
+  padding: 1rem; }
+  .footer-container__img-footer {
+    margin-top: 9rem;
+    width: 8rem; }
+  .footer-container__section-info {
+    display: flex;
+    flex-direction: column;
+    margin-top: .5rem; }
+  .footer-container__section-info-location {
+    display: flex;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    width: 100%; }
+  .footer-container__img-location {
+    height: 1.3rem;
+    margin-top: .4rem; }
+  .footer-container__info-location {
+    margin-left: 1rem; }
+  .footer-container__section-info-phone {
+    width: 100%;
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem; }
+  .footer-container__img-phone {
+    height: 1.3rem;
+    margin-top: .4rem; }
+  .footer-container__info-phone {
+    margin-left: 1rem; }
+  .footer-container__section-info-email {
+    display: flex;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    width: 100%; }
+  .footer-container__img-email {
+    height: 1.3rem;
+    margin-top: .4rem; }
+  .footer-container__info-email {
+    margin-left: 1rem; }
+  .footer-container__section-links {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    margin-top: 2rem; }
+  .footer-container__links {
+    color: white;
+    margin-bottom: 1rem;
+    text-decoration: none; }
+  .footer-container__section-social {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem; }
+  .footer-container__icon-facebook {
+    border-radius: 100%;
+    border: 1px solid white;
+    padding: 0.5rem;
+    width: 1.2rem; }
+  .footer-container__icon-twitter {
+    border-radius: 100%;
+    border: 1px solid white;
+    margin: 0 1rem 0 1rem;
+    padding: 0.5rem;
+    width: 1.2rem; }
+  .footer-container__icon-instagram {
+    border-radius: 100%;
+    border: 1px solid white;
+    padding: 0.5rem;
+    width: 1.2rem; }
+  .footer-container__copyright {
+    display: flex;
+    font-size: 0.8rem;
+    justify-content: center;
+    margin-bottom: 2rem; }
+
+.floating-container {
+  margin-bottom: 2rem;
+  position: absolute;
+  width: 100%; }
+  .floating-container__relative {
+    align-items: center;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 9px #80808057;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    position: relative;
+    top: -80px;
+    width: 90%; }
+  .floating-container__title {
+    color: #00252e;
+    font-size: 1.1rem;
+    margin-top: 2rem;
+    text-align: center; }
+  .floating-container__button {
+    background-color: #ff52bf;
+    border-radius: 3rem;
+    border: none;
+    box-shadow: 1px 1px 5px #80808057;
+    color: white;
+    font-weight: 700;
+    height: 2.5rem;
+    margin: 2rem 0;
+    width: 15rem; }
+
 * {
   margin: 0; }
 
