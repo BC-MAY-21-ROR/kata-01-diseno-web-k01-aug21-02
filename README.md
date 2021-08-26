@@ -13,7 +13,7 @@ Your challenge is to build out this landing page from the designs provided.
 Use the starter code and go through the README.md file. This will provide further details about the project. The style-guide.md file is where you'll find colors, fonts, etc.
 
 Keep your code as clean as possible. Be sure to use semantic HTML5 markup and reusable CSS classes.
-  
+
 ## Tecnologías
 - Your design must be [mobile first](https://medium.com/@Vincentxia77/what-is-mobile-first-design-why-its-important-how-to-make-it-7d3cf2e29d00)
 - You must make use of [fexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) and/or [css grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
@@ -21,7 +21,7 @@ Keep your code as clean as possible. Be sure to use semantic HTML5 markup and re
 
 ## Where to find everything
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design to work to. 
+Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design to work to.
 
 The designs are in JPG static format. This will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. This should help train your eye to perceive differences in spacings and sizes.
 
@@ -47,7 +47,7 @@ Feel free to use any workflow that you feel comfortable with. Below is a suggest
 
 ## Página web
 Agrega aquí un enlace a tu página web publicada.
-  
+
 ## Resources
 
 - [Flebox Forggy: A game for learning CSS flexbox](http://flexboxfroggy.com/#es)

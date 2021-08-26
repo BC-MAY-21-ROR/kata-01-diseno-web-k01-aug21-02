@@ -1,4 +1,5 @@
 @import "variables";
+@import "medias";
 @import "header";
 @import "hero";
 @import "cards";
@@ -10,8 +11,15 @@
 }
 
 body {
-  font-family: $font-family-open;
+  font-family: $font-family-primary;
   font-size: 1.125rem;
+}
+
+a, button{
+  &:hover{
+    transition: .3s ease;
+    cursor: pointer;
+  }
 }
 
 .container {
