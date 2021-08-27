@@ -48,6 +48,12 @@ Feel free to use any workflow that you feel comfortable with. Below is a suggest
 ## Página web
 - [Deployed website](https://kata-design-web-ror02.netlify.app/)
 
+## Integrantes Equipo 02 
+- Jose Maria Estrada Madera
+- Juan Ramon Guzman Aguilar
+- Adrian Robles
+- Heriberto Figueroa Michel
+
 ## Resources
 
 - [Flebox Forggy: A game for learning CSS flexbox](http://flexboxfroggy.com/#es)
